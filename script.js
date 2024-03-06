@@ -10,7 +10,7 @@ function add(){
       
         let itemPrice = price * quantity;
         total += itemPrice; 
-        swal("Item added successfully!!!","\nTotal:Rs." + total.toFixed(2), "success");
+        swal( name+ " added successfully!!!","\nTotal:Rs." + total.toFixed(2), "success");
         
         // alert("Item added to the cart successfully!!! \nTotal:Rs." + total.toFixed(2));
         document.getElementById('summary').innerHTML = `
